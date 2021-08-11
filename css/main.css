@@ -1,6 +1,12 @@
 html {
-    font-family: 'Google Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-family: arial,sans-serif;
 }
+
+/*
+
+    Navigation bar styles
+
+*/
 
 .navbar {
     flex-shrink: 0;
@@ -29,7 +35,6 @@ html {
     justify-content: flex-end;
     flex: 0 0 auto;
     box-sizing: border-box;
-    height: 48px;
     line-height: normal;
     padding: 0 4px;
     float: right;
@@ -37,18 +42,15 @@ html {
 }
 
 .navbar-links {
-    font-family: arial,sans-serif;
-    line-height: normal;
-    padding-right: 15px;
+    padding-right: 10px;
+    display: inline-block;
+    line-height: 24px;
 }
 
 .navbar-link {
     color: rgba(0,0,0,0.87);
     font-size: 13px;
     font-weight: 400;
-    display: inline-block;
-    line-height: 24px;
-    vertical-align: middle;
     text-decoration: none;
 }
 
@@ -117,6 +119,12 @@ html {
     box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);
     text-decoration: none;
 }
+
+/*
+
+    Footer styles
+
+*/
 
 .footer-box {
     display: block;
